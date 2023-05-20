@@ -1,0 +1,17 @@
+{
+	"name": "HttpServerTestLego",
+	"properties": {
+		"description": "test",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/KacperPerszewski/csv-lego/tree/173bedce331e8cd7c87a96260e18169837f24132/linkedService",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
