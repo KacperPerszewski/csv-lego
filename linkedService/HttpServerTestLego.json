@@ -5,7 +5,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://github.com/KacperPerszewski/csv-lego/",
+			"url": "https://github.com/KacperPerszewski/csv-lego/blob/cf389ac8c9ef1d60f3d1b8a1e998c461dd02f809/inventory_parts.csv",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		},
